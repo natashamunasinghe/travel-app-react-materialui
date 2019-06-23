@@ -14,14 +14,18 @@ import ContactUsPage from "views/ContactUsPage/ContactUsPage.jsx";
 import EcommercePage from "views/EcommercePage/EcommercePage.jsx";
 import LandingPage from "views/LandingPage/LandingPage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
-import PresentationPage from "views/PresentationPage/PresentationPage.jsx";
-import PricingPage from "views/PricingPage/PricingPage.jsx";
-import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
-import ProductPage from "views/ProductPage/ProductPage.jsx";
+// import PresentationPage from "views/PresentationPage/PresentationPage.jsx";
+// import PricingPage from "views/PricingPage/PricingPage.jsx";
+// import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
+// import ProductPage from "views/ProductPage/ProductPage.jsx";
 import SectionsPage from "views/SectionsPage/SectionsPage.jsx";
-import ShoppingCartPage from "views/ShoppingCartPage/ShoppingCartPage.jsx";
-import SignupPage from "views/SignupPage/SignupPage.jsx";
+// import ShoppingCartPage from "views/ShoppingCartPage/ShoppingCartPage.jsx";
+// import SignupPage from "views/SignupPage/SignupPage.jsx";
 import ErrorPage from "views/ErrorPage/ErrorPage.jsx";
+import SantiagoPage from "views/LocationsPage/ChilePage/SantiagoPage/SantiagoPage.jsx";
+import ColchaguaPage from "views/LocationsPage/ChilePage/ColchaguaPage/ColchaguaPage.jsx";
+// import PatagoniaPage from "views/LocationsPage/ChilePage/PatagoniaPage/PatagoniaPage.jsx";
+import ValparaisoPage from "views/LocationsPage/ChilePage/ValparaisoPage/ValparaisoPage.jsx";
 
 var hist = createBrowserHistory();
 
@@ -36,14 +40,30 @@ ReactDOM.render(
       <Route path="/ecommerce-page" component={EcommercePage} />
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/login-page" component={LoginPage} />
-      <Route path="/pricing" component={PricingPage} />
-      <Route path="/profile-page" component={ProfilePage} />
-      <Route path="/product-page" component={ProductPage} />
+      {/* <Route path="/pricing" component={PricingPage} /> */}
+      {/* <Route path="/profile-page" component={ProfilePage} /> */}
+      {/* <Route path="/product-page" component={ProductPage} /> */}
       <Route path="/sections" component={SectionsPage} />
-      <Route path="/shopping-cart-page" component={ShoppingCartPage} />
-      <Route path="/signup-page" component={SignupPage} />
+      {/* <Route path="/shopping-cart-page" component={ShoppingCartPage} /> */}
+      {/* <Route path="/signup-page" component={SignupPage} /> */}
       <Route path="/error-page" component={ErrorPage} />
-      <Route path="/" component={PresentationPage} />
+      <Route exact path="/" component={LandingPage} />
+      <Route exact path="/locations/chile/santiago" component={SantiagoPage} />
+      <Route
+        exact
+        path="/locations/chile/colchagua"
+        component={ColchaguaPage}
+      />
+      {/* <Route
+        exact
+        path="/locations/chile/patagonia"
+        component={PatagoniaPage}
+      /> */}
+      <Route
+        exact
+        path="/locations/chile/valparaiso"
+        component={ValparaisoPage}
+      />
     </Switch>
   </Router>,
   document.getElementById("root")
