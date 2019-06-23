@@ -70,9 +70,9 @@ function SectionLocationChile({ ...props }) {
                         classes.marginTop20
                       }`}
                     >
-                      Do I really need to say anything more the rooftop on that
-                      shipping container building? We also got to celebrate your
-                      birthday here....
+                      Do I really need to say anything more about the rooftop on
+                      that shipping container building? We also got to celebrate
+                      your birthday here....
                     </p>
                   </Link>
                 </CardBody>

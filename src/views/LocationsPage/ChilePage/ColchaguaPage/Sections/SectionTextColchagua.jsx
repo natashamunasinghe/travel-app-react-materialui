@@ -79,8 +79,8 @@ function SectionTextColchagua({ ...props }) {
           <p>
             We also tried a few more vinos but after the first few sips, I
             confess my memory takes a rather geriatric turn. So I cannot recall
-            what other beautiful concoctions passed our lips; but I do recollect
-            enjoying it.
+            what other beautiful concoctions our lips encountered; but I do
+            recollect enjoying it.
           </p>
           <p>
             The second wine tasting (BTW still hadn't eaten any food!) was at

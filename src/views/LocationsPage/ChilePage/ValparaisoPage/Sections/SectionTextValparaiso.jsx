@@ -77,14 +77,14 @@ function SectionTextValparaiso({ ...props }) {
             me, than you I think.
           </p>
           <p>
-            Remember, that lunch by the ocean before we hit Valparaiso? I still
+            Remember that lunch by the ocean before we hit Valparaiso? I still
             think wistfully about that piece of cake which escaped my lips.
           </p>
           <p>
             We walked in our room. Looked out into the horizon through those
             jumbo glass windows; and all we saw was beautiful blue ocean. I
             remember thinking
-            <i>&quot;Damn, N%$%$%%$ you made a good choice&quot;.</i>
+            <i>&quot;Damn, N%$%$%%$, you made a good choice&quot;.</i>
           </p>
           <p>Because frankly speaking, it could have gone either way.</p>
 

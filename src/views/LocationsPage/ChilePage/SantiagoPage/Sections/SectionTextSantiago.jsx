@@ -105,12 +105,24 @@ function SectionTextSantiago({ ...props }) {
         <GridItem xs={12} sm={8} md={8}>
           <h3 className={classes.title}>Rest of the Story:</h3>
           <p>
-            Santiago is a vast and a proud city. She is well ahead on values of
-            environmentalism, civic responsibility and collective well-being.
+            It was incredibly exciting for me to land in Santiago. My first step
+            onto Latin American soil (and frankly after 11 hours of flying; most
+            places would look delightful!)
           </p>
           <p>
-            It was a joy to see people enjoying a slower pace of life and living
-            life well; in a city.
+            Interesting that Australians have a friendship tax we need to pay at
+            immigration :)
+          </p>
+          <p>Seeing a vast city without her people takes a moment to digest.</p>
+          <p>
+            But for the folks we did see; it was a joy to see people enjoying a
+            slower pace of life and living life well - eating well, laughing a
+            lot and most noticeably treating both their environ and their fellow
+            citizens well.
+          </p>
+          <p>
+            This sense of egalitarism and civic responsibility is the stand-out
+            for me.
           </p>
           <p>
             Whether it was above ground views from that cable car ride, or

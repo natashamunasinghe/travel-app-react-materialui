@@ -24,7 +24,7 @@ import SectionsPage from "views/SectionsPage/SectionsPage.jsx";
 import ErrorPage from "views/ErrorPage/ErrorPage.jsx";
 import SantiagoPage from "views/LocationsPage/ChilePage/SantiagoPage/SantiagoPage.jsx";
 import ColchaguaPage from "views/LocationsPage/ChilePage/ColchaguaPage/ColchaguaPage.jsx";
-// import PatagoniaPage from "views/LocationsPage/ChilePage/PatagoniaPage/PatagoniaPage.jsx";
+import PatagoniaPage from "views/LocationsPage/ChilePage/PatagoniaPage/PatagoniaPage.jsx";
 import ValparaisoPage from "views/LocationsPage/ChilePage/ValparaisoPage/ValparaisoPage.jsx";
 
 var hist = createBrowserHistory();
@@ -54,11 +54,11 @@ ReactDOM.render(
         path="/locations/chile/colchagua"
         component={ColchaguaPage}
       />
-      {/* <Route
+      <Route
         exact
         path="/locations/chile/patagonia"
         component={PatagoniaPage}
-      /> */}
+      />
       <Route
         exact
         path="/locations/chile/valparaiso"
