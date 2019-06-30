@@ -79,7 +79,7 @@ class SectionTextSantiago extends React.Component {
             }}
             open={this.state.openLeft}
             anchorEl={this.anchorElLeft}
-            anchorReference={"anchorElTest"}
+            anchorReference={"anchorEl"}
             onClose={() => this.handleClosePopover("openLeft")}
             anchorOrigin={{
               vertical: "center",
@@ -99,7 +99,7 @@ class SectionTextSantiago extends React.Component {
             }}
             open={this.state.openLeft}
             anchorEl={this.anchorElLeft}
-            anchorReference={"openLeft"}
+            anchorReference={"anchorEl"}
             onClose={() => this.handleClosePopover("openLeft")}
             anchorOrigin={{
               vertical: "center",
@@ -127,9 +127,7 @@ class SectionTextSantiago extends React.Component {
                   alt="Santiago"
                   className={imgClasses}
                   onClick={() => this.handleClickButton("openLeft")}
-                  imageRef={node => {
-                    this.anchorElTest = node;
-                  }}
+                  imageref="test"
                 />
               </GridItem>
               <GridItem xs={12} sm={4} md={4}>
@@ -140,9 +138,6 @@ class SectionTextSantiago extends React.Component {
                   alt="Santiago"
                   className={imgClasses}
                   onClick={() => this.handleClickButton("openLeft")}
-                  imageRef={node => {
-                    this.anchorElLeft = node;
-                  }}
                 />
               </GridItem>
               <GridItem xs={12} sm={4} md={4}>
