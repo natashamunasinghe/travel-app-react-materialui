@@ -35,7 +35,7 @@ class LandingPage extends React.Component {
           links={<HeaderLinks dropdownHoverColor="info" />}
           fixed
           changeColorOnScroll={{
-            height: 300,
+            height: 100,
             color: "info"
           }}
           {...rest}

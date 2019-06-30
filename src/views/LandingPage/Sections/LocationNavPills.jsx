@@ -50,7 +50,7 @@ class LocationNavPills extends React.Component {
     return (
       <NavPills
         alignCenter
-        color="warning"
+        color="info"
         tabs={[
           {
             tabButton: "Chile",
@@ -59,6 +59,50 @@ class LocationNavPills extends React.Component {
           {
             tabButton: "Italy",
             tabContent: <SectionLocationItaly />
+          },
+          {
+            tabButton: "Indonesia",
+            tabContent: (
+              <div
+                className={classNames(
+                  classes.aboutDescription,
+                  classes.textCenter
+                )}
+              >
+                <GridContainer>
+                  <GridItem
+                    md={6}
+                    sm={6}
+                    className={classNames(classes.mrAuto, classes.mlAuto)}
+                  >
+                    <h5 className={classes.description}>We met.</h5>
+                  </GridItem>
+                </GridContainer>
+              </div>
+            )
+          },
+          {
+            tabButton: "Australia",
+            tabContent: (
+              <div
+                className={classNames(
+                  classes.aboutDescription,
+                  classes.textCenter
+                )}
+              >
+                <GridContainer>
+                  <GridItem
+                    md={6}
+                    sm={6}
+                    className={classNames(classes.mrAuto, classes.mlAuto)}
+                  >
+                    <h5 className={classes.description}>
+                      Ok you have more pics for this one :)
+                    </h5>
+                  </GridItem>
+                </GridContainer>
+              </div>
+            )
           },
           {
             tabButton: "The World Baby!",
